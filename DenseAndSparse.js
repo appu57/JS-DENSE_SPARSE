@@ -6,7 +6,7 @@ let array1 =[1,2,3,4,,];//sparse  let array=new Array(10);
 console.log(array1.length);
 
 
-// A sparse array is one in which the elements are not sequential, and they don't always start at 0.
+// A sparse array is one in which the elements are not sequential, and they don't always start at 0 
 
 // They are essentially Arrays with "holes", or gaps in the sequence of their indices.
 
@@ -28,9 +28,9 @@ array.length // But .length returns 1001
 "###############################################################################################################################################################"
 //3
 
-let array = [1, 2, 3, 4, 5]
-delete array[0]
-array.length // .length returns 5
+let arraydelete = [1, 2, 3, 4, 5]
+delete arraydelete[0]
+arraydelete.length // .length returns 5
 "###############################################################################################################################################################"
 
 //4
